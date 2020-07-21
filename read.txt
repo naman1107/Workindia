@@ -1,0 +1,22 @@
+http://localhost/Note/App/register.php-To create Account[POST]
+Input:
+{
+    "User":"",
+    "Password":""
+}
+
+http://localhost/Note/App/user/auth.php- To authenticate user[POST]
+Input:
+{
+    "User":"",
+    "Password":""
+}
+
+
+http://localhost/Note/App/sites/insert.php?user=9- To insert note[POST]
+INPUT:
+{
+    "note":"Random Note 123"
+}
+
+http://localhost/Note/App/sites/list/notes.php?user=9- To get notes[GET]
